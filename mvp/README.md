@@ -41,10 +41,10 @@ python aeropredict_mvp.py
 ```
 Make sure the dataset is inside:
 
-**mvp/data/
-  train_FD001.txt
-  test_FD001.txt
-  RUL_FD001.txt**
+mvp/data/
+train_FD001.txt
+test_FD001.txt
+RUL_FD001.txt**
 
 
 ## Output
