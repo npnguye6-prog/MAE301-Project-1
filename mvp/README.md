@@ -1,9 +1,11 @@
 # AeroPredict MVP (Phase 3)
 A machine learning model for predicting turbofan engine Remaining Useful Life (RUL).
 
+
 ## Overview
 AeroPredict is a simple predictive maintenance model that estimates Remaining Useful Life (RUL) of turbofan engines using NASA C-MAPSS sensor data.  
 This Phase 3 MVP builds on earlier phases by training a machine learning model and generating RUL predictions along with basic uncertainty estimates and evaluation metrics.
+
 
 ## Objective
 The goal of this MVP is to:
@@ -12,6 +14,7 @@ The goal of this MVP is to:
 - Train a machine learning model  
 - Predict RUL for test engines  
 - Evaluate model performance  
+
 
 ## Data
 This project uses the NASA C-MAPSS FD001 dataset, which contains simulated turbofan engine degradation data.
@@ -30,6 +33,7 @@ wget -O train_FD001.txt https://raw.githubusercontent.com/mapr-demos/predictive-
 wget -O test_FD001.txt https://raw.githubusercontent.com/mapr-demos/predictive-maintenance/master/notebooks/jupyter/Dataset/CMAPSSData/test_FD001.txt
 wget -O RUL_FD001.txt https://raw.githubusercontent.com/mapr-demos/predictive-maintenance/master/notebooks/jupyter/Dataset/CMAPSSData/RUL_FD001.txt
 ```
+
 ## How to Run
 
 ```bash
@@ -42,11 +46,13 @@ mvp/data/
   test_FD001.txt
   RUL_FD001.txt
 
+
 ## Output
 
 - Predicted Remaining Useful Life (RUL)
 - Confidence interval (uncertainty bounds)
 - Evaluation metrics (MAE, RMSE)
+
 
 ## Example Output
 
