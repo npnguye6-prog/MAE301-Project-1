@@ -108,7 +108,7 @@ def bootstrap_prediction_intervals(
     X_train: pd.DataFrame,
     y_train: pd.Series,
     X_test: pd.DataFrame,
-    n_bootstrap: int = 50,
+    n_bootstrap: int = 10,
     n_estimators: int = 150,
 ):
     """
