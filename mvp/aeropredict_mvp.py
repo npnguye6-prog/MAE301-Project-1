@@ -17,7 +17,7 @@ RANDOM_STATE = 42
 np.random.seed(RANDOM_STATE)
 
 # Change this if your data is somewhere else
-DATA_DIR = Path("data")
+DATA_DIR = Path(__file__).parent / "data"
 
 TRAIN_FILE = DATA_DIR / "train_FD001.txt"
 TEST_FILE = DATA_DIR / "test_FD001.txt"
